@@ -1,0 +1,42 @@
+# GET http://localhost:5000/api/users
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjUyNWQ3ZGNhNDAzYTQ3YTA3NjdhNzIiLCJuYW1lIjoidmlyYWsucmFuIiwiZW1haWwiOiJ2aXJha2NhbWJvZGlhOTlAZ21haWwuY29tIiwiaWF0IjoxNTk5Mzk5MzY2LCJleHAiOjE1OTkzOTk3MjZ9.gcDLG0ZrcxQ8XTFZCzstz6ocixuFldsFQZpON6NGxMI
+# ###
+
+
+# POST http://localhost:5000/api/users
+# Content-Type: application/json
+
+# {
+#   "name": "virak.ran",
+#   "email": "virakcambodia99@gmail.com",
+#   "password": "password",
+#   "confirm_password": "password"
+# }
+
+# ###
+
+
+POST http://localhost:5000/api/users/login
+Content-Type: application/json
+
+{
+  "name": "virak.ran",
+  "email": "virakcambodia99@gmail.com",
+  "password": "password",
+  "confirm_password": "password"
+}
+
+# ###
+
+
+# GET http://localhost:5000/api/users/profile
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjUyNWQ3ZGNhNDAzYTQ3YTA3NjdhNzIiLCJuYW1lIjoidmlyYWsucmFuIiwiZW1haWwiOiJ2aXJha2NhbWJvZGlhOTlAZ21haWwuY29tIiwiaWF0IjoxNTk5NDAwMDk3LCJleHAiOjE1OTk0MDA0NTd9.8UnQLwbZfYvJ4WRxWHXj45TVOjh330T9ddulj50WVnY
+
+
+# ###
+
+
+# DELETE  http://localhost:5000/api/users/logout
+# Content-Type: application/json
+
+

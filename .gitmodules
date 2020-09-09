@@ -1,0 +1,3 @@
+[submodule "login-vue-node-mongoose"]
+	path = login-vue-node-mongoose
+	url = https://github.com/virak0001/login-vue-node-mongoose.git
